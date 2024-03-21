@@ -1,0 +1,35 @@
+body {
+  font-size: 16px;
+}
+
+/* Especificidad de selectores */
+
+
+/* Selector universal, especificidad 1 */
+
+* {
+  font-size: 12px;
+  color: red;
+}
+
+/* Selector elemnto, especificidad 10 */
+li, h3, h2, a {
+  font-size: 14px;
+  color: blue;
+}
+
+/* Selector clase, especificidad 100 */
+.list-item {
+  font-size: 16px;
+  color: green;
+}
+
+.list-item-two {
+  color: aqua;
+}
+
+/* Selector id, especificidad 1000 */
+#list-one-item, #list-two-item {
+  font-size: 18px;
+  color: purple;
+}

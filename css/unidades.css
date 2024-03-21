@@ -1,0 +1,43 @@
+* {
+  color: black;
+}
+
+h1, h2, h3 {
+  color: red;
+}
+
+.tamano-pixeles {
+  width: 300px;
+  border: 2px solid red;
+  background-color: aqua;
+}
+
+.tamano-pixeles > p {
+  font-size: 16px;
+}
+
+.tamano-em {
+  border: 2px solid red;
+  background-color: aqua;
+  padding: 10px;
+}
+
+.tamano-em > p {
+  font-size: 16px;
+  line-height: 2em;
+}
+
+.tamano-em > div {
+  font-size: 30px;
+  border: 1px solid black;
+}
+
+.tamano-em span {
+  font-size: 0.5em;
+}
+
+.tamano-vw-vh div {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
